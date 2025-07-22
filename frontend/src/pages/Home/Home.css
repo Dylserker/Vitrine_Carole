@@ -1,18 +1,18 @@
 .home-container {
   text-align: center;
   margin-top: 60px;
-  background: #fff;
+  background: linear-gradient(135deg, #f7fafc 0%, #e0eafc 100%);
   border-radius: 0;
   box-shadow: 0 0 20px rgba(0,0,0,0.05);
   padding-bottom: 40px;
 }
 
 .home-container h1 {
-  color: #2c3e50;
+  color: #3a506b;
 }
 
 .home-container p {
-  color: #555;
+  color: #5c677d;
 }
 
 .home-section {

@@ -1,8 +1,8 @@
 .work-section {
   padding: 60px 0;
   text-align: left;
-  background: linear-gradient(90deg, #e3e7ed 0%, #f8fafc 100%);
-  border-bottom: 2px solid #e0e0e0;
+  background: linear-gradient(135deg, #cfa2c7 0%, #b2c9e7 100%);
+  border-bottom: 2px solid #b2b2b2;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
   border-top-right-radius: 60px;
@@ -10,12 +10,12 @@
   margin-left: 0;
   margin-right: auto;
   max-width: 75%;
-  box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.10);
 }
 .work-section h2 {
-  color: #34495e;
+  color: #25324b;
   margin-bottom: 15px;
 }
 .work-section p {
-  color: #555;
+  color: #3d4a5a;
 }

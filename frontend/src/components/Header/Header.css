@@ -1,6 +1,7 @@
 .header {
-  background: #34495e;
-  color: #fff;
+  background: linear-gradient(90deg, #e0eafc 0%, #f7e8f6 100%);
+  color: #3a506b;
   padding: 20px 0;
   text-align: center;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
 }
