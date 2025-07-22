@@ -8,7 +8,7 @@ import Localisation from '../../components/Localisation/Localisation';
 const Home = () => {
   return (
     <section className="home-container">
-      <h1>Bienvenue</h1>
+      <h1>Bienvenue à vous chers parents</h1>
       <section className="home-section">
         <About />
       </section>
