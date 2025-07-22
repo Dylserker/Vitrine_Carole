@@ -8,8 +8,17 @@ const About = () => {
         <img src="/photo-nounou.jpg" alt="Photo de la nourrice" className="about-photo" />
       </div>
       <div className="about-content">
-        <h2>À propos</h2>
-        <p>Découvrez qui nous sommes et notre histoire.</p>
+        <h2>Qui je suis ?</h2>
+        <p>Je me présente, Je m'appelle Carole Levant, j'ai 43 ans. Je suis Mariée et nous <br />
+          avons 3 grands enfants. Nicolas 24 ans, Mécanicien - Kelly 21 ans, EJE <br />
+          - Jérémy, étudiant. Je ne possède pas d'animal. <br />
+          <br />
+          Je suis assistante maternelle agrée et j'exerce ce métier depuis 2021, année où j'ai <br />
+          effectué et validé ma formation initiale. Je suis agréée pour l'accueil de deux enfants. <br />
+          Les raisons qui me conduisent à passer le CAP AEPE par la VAE, c'est déjà pouvoir <br />
+          me sentir "professionnelle" auprès des parents et les rassurer. Ce diplôme serait une <br />
+          reconnaissance personnelle et me permettrait d'évoluer dans ce beau métier.
+        </p>
       </div>
     </section>
   );
