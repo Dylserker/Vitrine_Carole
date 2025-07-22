@@ -17,22 +17,22 @@
 }
 
 .about-photo-wrapper {
-  flex: 0 0 180px;
+  flex: 0 0 240px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  height: 180px;
-  margin-right: 64px;
-  margin-left: 64px;
+  height: 240px;
+  margin-right: 80px;
+  margin-left: 80px;
 }
 
 .about-photo {
-  width: 160px;
-  height: 160px;
+  width: 220px;
+  height: 220px;
   object-fit: cover;
   border-radius: 50%;
-  border: 5px solid #fff;
-  box-shadow: 0 2px 16px rgba(0,0,0,0.12);
+  border: 6px solid #fff;
+  box-shadow: 0 2px 20px rgba(0,0,0,0.14);
   background: #e0eafc;
 }
 
