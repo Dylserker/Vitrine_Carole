@@ -7,8 +7,7 @@ import Contact from '../../components/Contact/Contact';
 const Home = () => {
   return (
     <section className="home-container">
-      <h1>Bienvenue sur la vitrine Carole</h1>
-      <p>Votre site principal est prêt !</p>
+      <h1>Bienvenue</h1>
       <section className="home-section">
         <About />
       </section>
