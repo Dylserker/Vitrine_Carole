@@ -9,8 +9,8 @@ const About = () => {
       </div>
       <div className="about-content">
         <h2>Qui je suis ?</h2>
-        <p>Je me présente, Je m'appelle Carole Levant, j'ai 43 ans. Je suis Mariée et nous <br />
-          avons 3 grands enfants. Nicolas 24 ans, Mécanicien - Kelly 21 ans, EJE <br />
+        <p>Je me présente, Je m'appelle Carole Levant, j'ai 44 ans. Je suis Mariée et nous <br />
+          avons 3 grands enfants. Nicolas 25 ans, Mécanicien - Kelly 22 ans, EJE <br />
           - Jérémy, étudiant. Je ne possède pas d'animal. <br />
           <br />
           Je suis assistante maternelle agrée et j'exerce ce métier depuis 2021, année où j'ai <br />
