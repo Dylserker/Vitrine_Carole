@@ -2,14 +2,16 @@
   padding: 60px 0;
   text-align: right;
   background: linear-gradient(90deg, #f8fafc 60%, #e3e7ed 100%);
-  border-top-right-radius: 60px;
-  border-bottom-right-radius: 60px;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
+  border-bottom: 2px solid #e0e0e0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 60px;
+  border-bottom-left-radius: 60px;
   margin-right: 0;
   margin-left: auto;
   max-width: 75%;
   box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+  margin-top: 40px;
   margin-bottom: 40px;
 }
 
