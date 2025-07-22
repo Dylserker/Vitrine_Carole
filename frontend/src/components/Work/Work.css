@@ -15,7 +15,9 @@
 .work-section h2 {
   color: #25324b;
   margin-bottom: 15px;
+  text-align: center;
 }
 .work-section p {
   color: #3d4a5a;
+  text-align: center;
 }
