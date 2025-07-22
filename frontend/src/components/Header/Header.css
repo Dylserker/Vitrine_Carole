@@ -1,7 +1,49 @@
 .header {
+  width: 100%;
   background: linear-gradient(90deg, #e0eafc 0%, #f7e8f6 100%);
   color: #3a506b;
   padding: 20px 0;
   text-align: center;
   box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  margin: 0;
+  border: none;
+  position: relative;
+  z-index: 10;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.header-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 18px 0 8px 0;
+  letter-spacing: 2px;
+}
+
+.header-nav {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 10px;
+}
+
+.header-nav a {
+  color: #3a506b;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: color 0.2s;
+  padding: 6px 12px;
+  border-radius: 8px;
+}
+
+.header-nav a:hover {
+  background: #e0eafc;
+  color: #cfa2c7;
 }
