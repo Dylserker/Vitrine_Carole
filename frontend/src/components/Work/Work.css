@@ -1,4 +1,21 @@
 .work-section {
-  padding: 40px 0;
-  text-align: center;
+  padding: 60px 0;
+  text-align: left;
+  background: linear-gradient(90deg, #e3e7ed 0%, #f8fafc 100%);
+  border-bottom: 2px solid #e0e0e0;
+  border-top-left-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-left: 0;
+  margin-right: auto;
+  max-width: 75%;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+}
+.work-section h2 {
+  color: #34495e;
+  margin-bottom: 15px;
+}
+.work-section p {
+  color: #555;
 }

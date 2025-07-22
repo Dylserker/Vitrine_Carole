@@ -1,6 +1,10 @@
 .home-container {
   text-align: center;
   margin-top: 60px;
+  background: #fff;
+  border-radius: 0;
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
+  padding-bottom: 40px;
 }
 
 .home-container h1 {
@@ -9,4 +13,8 @@
 
 .home-container p {
   color: #555;
+}
+
+.home-section {
+  margin: 40px 0;
 }

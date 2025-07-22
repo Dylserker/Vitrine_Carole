@@ -6,13 +6,19 @@ import Contact from '../../components/Contact/Contact';
 
 const Home = () => {
   return (
-    <div className="home-container">
+    <section className="home-container">
       <h1>Bienvenue sur la vitrine Carole</h1>
       <p>Votre site principal est prêt !</p>
-      <About />
-      <Work />
-      <Contact />
-    </div>
+      <section className="home-section">
+        <About />
+      </section>
+      <section className="home-section">
+        <Work />
+      </section>
+      <section className="home-section">
+        <Contact />
+      </section>
+    </section>
   );
 };
 
