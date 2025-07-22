@@ -1,0 +1,45 @@
+.localisation-section {
+  padding: 60px 0;
+  text-align: center;
+  background: linear-gradient(135deg, #cfa2c7 0%, #b2c9e7 100%);
+  border-bottom: 2px solid #b2b2b2;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 150px;
+  border-bottom-right-radius: 150px;
+  margin-left: 0;
+  margin-right: auto;
+  max-width: 75%;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+  margin-bottom: 80px;
+}
+.localisation-section h2 {
+  color: #25324b;
+  margin-bottom: 15px;
+}
+.localisation-section h2,
+.localisation-section p {
+  text-align: center;
+}
+.localisation-section p {
+  color: #3d4a5a;
+}
+.localisation-section address {
+  text-align: right;
+  font-style: normal;
+  color: #3d4a5a;
+  margin-bottom: 18px;
+  font-size: 1.1rem;
+}
+.localisation-map {
+  margin-top: 18px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.localisation-map iframe {
+  width: 100%;
+  min-width: 300px;
+  max-width: 700px;
+  border-radius: 16px;
+}
