@@ -8,6 +8,6 @@
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ],
-  "framework": "react",
+  "framework": "create-react-app",
   "outputDirectory": "build"
 }
