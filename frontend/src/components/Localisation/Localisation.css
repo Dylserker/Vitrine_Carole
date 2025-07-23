@@ -66,6 +66,7 @@
   transform: translateY(-8px) scale(1.03);
 }
 .localisation-section h2 {
+  font-size: 1.5em !important;
   color: #25324b;
   margin-bottom: 15px;
 }
@@ -75,6 +76,7 @@
 }
 .localisation-section p {
   color: #3d4a5a;
+  font-size: 1rem;
 }
 .localisation-section address {
   text-align: right;
