@@ -17,6 +17,7 @@ body, html, .home-container, .home-section, h1, h2, h3, p, a, address {
 
 .home-container h1 {
   color: #3a506b;
+  font-size: 1.5rem;
 }
 
 .home-container p {

@@ -19,15 +19,23 @@
   max-width: 75%;
   box-shadow: 0 4px 24px rgba(0,0,0,0.10);
   margin-top: 40px;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.contact-section:hover {
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+  transform: translateY(-8px) scale(1.03);
 }
 
 .contact-section h2 {
   color: #25324b;
   margin-bottom: 15px;
   text-align: center;
+  font-size: 1.5em !important;
 }
 
 .contact-section p {
   color: #3d4a5a;
   text-align: center;
+  font-size: 1rem;
 }
