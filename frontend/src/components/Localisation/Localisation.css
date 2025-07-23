@@ -9,6 +9,7 @@
   border-bottom-left-radius: 0;
   border-top-right-radius: 150px;
   border-bottom-right-radius: 150px;
+  max-width: 75%;;
 
 /* Responsive design */
 @media (max-width: 1024px) {
