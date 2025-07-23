@@ -9,9 +9,54 @@
   border-bottom-left-radius: 0;
   border-top-right-radius: 150px;
   border-bottom-right-radius: 150px;
+
+/* Responsive design */
+@media (max-width: 1024px) {
+  .localisation-section {
+    max-width: 95%;
+    padding: 40px 0;
+    margin-top: 40px;
+    border-radius: 80px;
+  }
+  .localisation-content {
+    padding: 0 8px;
+  }
+  .localisation-map {
+    width: 100%;
+    height: 300px;
+  }
+}
+
+@media (max-width: 700px) {
+  .localisation-section {
+    flex-direction: column;
+    text-align: center;
+    border-radius: 0;
+    padding: 24px 0;
+    margin: 0;
+    width: 100vw;
+    max-width: 100vw;
+    left: 50%;
+    right: 50%;
+    transform: none;
+  }
+  .localisation-content {
+    padding: 0 4px;
+  }
+  .localisation-section h2 {
+    font-size: 1.2em !important;
+  }
+  .localisation-section p {
+    font-size: 0.95em;
+  }
+  .localisation-map {
+    width: 100%;
+    height: 180px;
+  }
+}
   margin-left: 0;
   margin-right: auto;
-  max-width: 75%;
+  max-width: 100%;
   box-shadow: 0 4px 24px rgba(0,0,0,0.10);
   margin-bottom: 80px;
   transition: box-shadow 0.3s, transform 0.3s;
@@ -46,8 +91,9 @@
 }
 .localisation-map iframe {
   width: 100%;
-  min-width: 300px;
-  max-width: 700px;
+  min-width: 100px;
+  max-width: 300px;
+  height: 200px;
   border-radius: 16px;
 }
 .localisation-section, .localisation-section * {
