@@ -15,15 +15,15 @@
   border-top-right-radius: 150px;
   border-bottom-right-radius: 150px;
   max-width: 75%;
-  margin-left: auto;
+  margin-left: 0;
   margin-right: auto;
 
 /* Responsive design */
 @media (max-width: 1024px) {
   .work-section {
-    max-width: 95%;
-    padding: 40px 0;
-    margin-top: 40px;
+  max-width: 75%;
+  margin-left: 0;
+  margin-right: auto;
     border-top-right-radius: 80px;
     border-bottom-right-radius: 80px;
   }
@@ -44,6 +44,8 @@
     left: 50%;
     right: 50%;
     transform: none;
+    margin-left: 0;
+    margin-right: auto;
   }
   .work-content {
     padding: 0 4px;
