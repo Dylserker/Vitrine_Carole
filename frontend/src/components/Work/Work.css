@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief&display=swap');
+
+.work-section, .work-section * {
+  font-family: 'Comic Relief', cursive, sans-serif;
+  font-size: initial;
+}
+
 .work-section {
   padding: 60px 0;
   text-align: left;

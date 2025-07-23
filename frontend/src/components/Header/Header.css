@@ -1,13 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief&display=swap');
+
+.header, .header * {
+  font-size: initial;
+}
+
 .header {
   width: 100%;
-  background: linear-gradient(90deg, #e0eafc 0%, #f7e8f6 100%);
-  color: #3a506b;
+  background: linear-gradient(90deg, #a18cd1 0%, #fbc2eb 100%);
+  color: #000000;
   padding: 20px 0;
   text-align: center;
   box-shadow: 0 2px 12px rgba(0,0,0,0.04);
   margin: 0;
   border: none;
   position: relative;
+  font-family: 'Comic Relief', cursive, sans-serif;
 }
 
 .header-content {
@@ -19,11 +26,15 @@
 }
 
 .header-title {
-  font-size: 2.2rem;
+  font-size: 3.5rem;
   font-weight: 700;
   margin: 0;
   padding: 18px 0 8px 0;
   letter-spacing: 2px;
+}
+
+.header h2 {
+  font-size: 2rem !important;
 }
 
 .header-nav {
@@ -40,6 +51,7 @@
   transition: color 0.2s;
   padding: 6px 12px;
   border-radius: 8px;
+  font-family: 'Comic Relief', cursive, sans-serif;
 }
 
 .header-nav a:hover {

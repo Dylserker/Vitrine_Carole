@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief&display=swap');
+
 .localisation-section {
   padding: 60px 0;
   text-align: center;
@@ -42,4 +44,8 @@
   min-width: 300px;
   max-width: 700px;
   border-radius: 16px;
+}
+.localisation-section, .localisation-section * {
+  font-family: 'Comic Relief', cursive, sans-serif;
+  font-size: initial;
 }

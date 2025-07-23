@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief&display=swap');
+
+body, html, .home-container, .home-section, h1, h2, h3, p, a, address {
+  font-family: 'Comic Relief', cursive, sans-serif;
+  font-size: initial;
+}
+
 .home-container {
   text-align: center;
   margin-top: -22px;
