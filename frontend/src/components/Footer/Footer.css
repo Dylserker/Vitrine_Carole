@@ -5,12 +5,10 @@
   color: #000000;
   padding: 15px 0;
   text-align: center;
-  position: fixed;
   width: 100%;
-  bottom: 0;
   box-shadow: 0 -2px 12px rgba(0,0,0,0.04);
   font-family: 'Comic Relief', cursive, sans-serif;
-  font-size: initial;
+  position: static;
 }
 
 .footer * {
